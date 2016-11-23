@@ -1,7 +1,7 @@
 import react from 'react';
 import reactDom from 'react-dom';
 
-const Login = React.createaClass({
+const Login = React.createClass({
       render() {
         return (
           <form class="Login">
