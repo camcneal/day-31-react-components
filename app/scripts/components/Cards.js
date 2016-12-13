@@ -1,17 +1,17 @@
 import React from 'react';
-
+import Nav from './nav';
 
 const Card = React.createClass({
       render() {
         return (
               <div className="Card">
-              <nav></nav>
+              <Nav/>
               <img src="#" />
               <h3>{this.props.card.name}</h3>
-              <span>{this.props.card.nickname}</span>
-              <span>{this.props.card.age}</span>
-              <span>{this.props.card.city}</span>
-              <span>{this.props.card.number}</span>
+              <span className="nickName">{this.props.card.nickname}</span>
+              <span className="Age">{this.props.card.age}</span>
+              <span className="City">{this.props.card.city}</span>
+              <span className="number">{this.props.card.number}</span>
 
               </div>
         )

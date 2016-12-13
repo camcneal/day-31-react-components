@@ -1,21 +1,16 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Nav from './nav';
 
 const Login = React.createClass({
       render() {
         return (
-          <div>
-          <Nav/>
-          <form className="Login">
+          <form className="SignUp">
+            <input type="text"  placeholder="Name"/>
             <input type="text"  placeholder="Email Address"/>
             <input type="text"  placeholder="Password"/>
-            <input type="Submit" value="Login"/>
+            <input type="button" value="SignUp"/>
           </form>
-          Not registered? <a href="#signup">Sign Up!</a>
-
-          </div>
-        );
+        )
       }
     });
 export default Login;
