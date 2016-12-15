@@ -6,8 +6,7 @@ const Login = React.createClass({
       render() {
         return (
           <div>
-          <Nav/>
-          <form className="Login">
+          <form className="login">
             <input type="text"  placeholder="Email Address"/>
             <input type="text"  placeholder="Password"/>
             <input type="Submit" value="Login"/>

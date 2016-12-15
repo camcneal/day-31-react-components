@@ -4,7 +4,7 @@ import ReactDom from 'react-dom';
 const Login = React.createClass({
       render() {
         return (
-          <form className="SignUp">
+          <form className="signUp">
             <input type="text"  placeholder="Name"/>
             <input type="text"  placeholder="Email Address"/>
             <input type="text"  placeholder="Password"/>
